@@ -47,10 +47,9 @@ ul li {
 
 ul li.checked {
   background: #888;
-  color: #fff;
+  color: red;
   text-decoration: line-through;
 }
-
 ul li.checked::before {
   content: '';
   position: absolute;
