@@ -58,9 +58,14 @@ function newInput() {
 //check mark
 
   var span = document.createElement("SPAN");
-  var exclamation = document.createTextNode("v");
-  span.id = "exclamation";
-  span.appendChild(exclamation);
+  var check = document.createTextNode("v");
+  span.id = "check";
+  span.appendChild(check);
   li.appendChild(span);
 
+  li.addEventListener('click', function(ev) {
+    if (ev.target.tagName === 'LI'){
+      ev.target.classList.toggle('checked');
+    }
+  }, false);
 }
