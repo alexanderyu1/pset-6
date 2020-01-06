@@ -101,15 +101,19 @@ button:hover {
   text-align: center;
 }
 
+.header {
+  text-align: center;
+  color: #00a6ff;
+}
+
 .header hr {
   width: 80%;
 }
 
-img{
-  height: 50px;
-  width: 200px;
-}
-
 .priority {
   color: red;
+}
+
+ul li.check {
+  text-decoration: line-through;
 }

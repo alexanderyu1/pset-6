@@ -68,4 +68,8 @@ function newInput() {
       ev.target.classList.toggle('checked');
     }
   }, false);
+
+  li.addEventListener('click', function(ev) {
+      ev.target.classList.toggle('check');
+  }, false);
 }
