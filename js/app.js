@@ -1,4 +1,5 @@
 //when user inputs something to the list
+
 var array = [];
 function newInput() {
   var li = document.createElement("li");
@@ -12,12 +13,16 @@ function newInput() {
     document.getElementById("unorderList").appendChild(li);
   }
   document.getElementById("input").value = "";
-//removal button
+
+//remove button
+
   var remove = document.createElement("BUTTON");
   remove.innerHTML = "remove";
   remove.className = "remove";
   li.appendChild(remove);
- //exclamation
+
+ //exclamation button
+
   var span = document.createElement("SPAN");
   var exclamation = document.createTextNode("!");
   span.id = "exclamation";
@@ -45,7 +50,7 @@ function newInput() {
 
   li.addEventListener('click', function(ev) {
     if (ev.target.tagName === 'LI'){
-      ev.target.classList.toggle('checked');//breathe if dumb
+      ev.target.classList.toggle('checked');
     }
   }, false);
 
