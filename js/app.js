@@ -11,7 +11,7 @@ function newInput() {
   if (inputValue === '') {
     alert("You must write something!");
   } else {
-    document.getElementById("unorderList").appendChild(li);
+    document.getElementById("unorderedList").appendChild(li);
   }
   document.getElementById("input").value = "";
 
@@ -42,9 +42,9 @@ function newInput() {
     if (ev.target.id == "exclamation") {
       ev.target.classList.toggle('priority');
       if (ev.target.className == 'priority'){
-        document.getElementById("unorderList").prepend(ev.target.parentElement);
+        document.getElementById("unorderedList").prepend(ev.target.parentElement);
       }else{
-        document.getElementById("unorderList").append(ev.target.parentElement);
+        document.getElementById("unorderedList").append(ev.target.parentElement);
       }
     }
   }, false);
@@ -56,6 +56,7 @@ function newInput() {
   }, false);
 
 //check mark
+
   var span = document.createElement("SPAN");
   var check = document.createTextNode("v");
   span.id = "check";
