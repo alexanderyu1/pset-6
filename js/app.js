@@ -55,6 +55,8 @@ function newInput() {
     }
   }, false);
 
+//check mark
+
   var span = document.createElement("SPAN");
   var exclamation = document.createTextNode("v");
   span.id = "exclamation";
