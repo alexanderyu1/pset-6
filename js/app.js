@@ -55,4 +55,10 @@ function newInput() {
     }
   }, false);
 
+  var span = document.createElement("SPAN");
+  var exclamation = document.createTextNode("v");
+  span.id = "exclamation";
+  span.appendChild(exclamation);
+  li.appendChild(span);
+
 }
