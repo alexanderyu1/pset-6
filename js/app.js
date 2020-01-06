@@ -1,5 +1,7 @@
+//when user inputs something to the list
 var array = [];
-function newElement() {
+
+function newInput() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("input").value;
   array.push(inputValue);
