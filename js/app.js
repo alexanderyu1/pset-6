@@ -1,6 +1,7 @@
 //when user inputs something to the list
 
 var array = [];
+
 function newInput() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("input").value;

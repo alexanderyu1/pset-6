@@ -29,7 +29,7 @@ ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: #696969;
+  background: #4549ba;
   font-size: 18px;
   transition: 0.2s;
   -webkit-user-select: none;
@@ -59,19 +59,33 @@ ul li.checked::before {
 }
 
 button {
-  display: block;
-  align: right;
-  margin: auto;
-  margin-left: 1%;
-  margin-right: 1%;
-  height: 3em;
-  font: 1.1em "Comic Sans", "Comic Sans MS", "Lobster", times;
-  color: #9384d1;
-  background-color: #4A412A;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  background-color: black;
+  font-size: 24px;
+  color: black;
+  float: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: black;
+  top: 0;
+  left: 0;
+  transition: all .15s linear 0s;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: coral;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: arial;
+  letter-spacing: 1px;
+  box-shadow: -6px 6px 0 #ffffff;
+  text-decoration: none;
 }
 
 button:hover {
-  box-shadow: 0.3em 0.3em 0.3em #c215ed;
+  box-shadow: 0.3em 0.3em 0.3em #000000;
 }
 
 .modify-list {
