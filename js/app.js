@@ -56,7 +56,6 @@ function newInput() {
   }, false);
 
 //check mark
-
   var span = document.createElement("SPAN");
   var check = document.createTextNode("v");
   span.id = "check";
